@@ -1,0 +1,13 @@
+server:
+  port: 9528
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.152.101:8848
+
+feign:
+  hystrix:
+    enabled: true        
